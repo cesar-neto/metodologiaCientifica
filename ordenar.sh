@@ -8,21 +8,21 @@ javac -d ./out ./src/*/*/*.java
 
 ALGORITHM=$1
 
-PAR="parSort"
+QUI="quiSort"
 SEQ="seqSort"
 
 if [ -z $ALGORITHM ] 
 then
-	echo "Algoritmo deve ser informado. Escolha entre parSort e seqSort"
+	echo "Algoritmo deve ser informado. Escolha entre quiSort e seqSort"
 	exit
 fi 
 
 case $ALGORITHM in
-	"parSort")
+	"quiSort")
 		# out/ is the binaries folder.
-		java -cp out/ -Xmx2048m algoritmo/sorting/ParSort $stdinArray;;
+		java -cp out/ -Xmx2048m algoritmo/sorting/QuiSort $stdinArray;;
 	"seqSort")
 		java -cp out/ -Xmx2048m algoritmo/sorting/SeqSort $stdinArray;;
-	*) echo "Algoritmo inválido. Escolha entre parSort e seqSort." ;;
+	*) echo "Algoritmo inválido. Escolha entre quiSort e seqSort." ;;
 esac
 
