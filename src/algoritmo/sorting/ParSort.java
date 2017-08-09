@@ -3,9 +3,6 @@ package algoritmo.sorting;
 import algoritmo.model.ParallelMergeSort;
 import algoritmo.util.StringUtil;
 
-/**
- * Class main parallel mergesort.
- */
 public class ParSort {
 	static int NPARALLELSORT = 5;
 	public static void main(String[] args) throws Throwable {  //parallel

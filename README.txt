@@ -1,4 +1,4 @@
-O algoritmo de ordenação usado foi o quickSort e o sequencial do MergeSort.
+O algoritmo de ordenação usado foi o quickSort, sequencial do MergeSort e paralelo MergeSort.
 
 Pré-condição:
 * Lembre-se que caso o ordenar.sh tiver permissão ele pode não rodar.
@@ -9,10 +9,12 @@ chmod +x ordenar.sh
 Algoritmos:
 * MergeSort Sequencial: seqSort
 * QuickSort : quiSort
+* MergeSort Paralelo: parSort
 
 Template:
 ./ordenar seqSort < path_entrada > path_saida
 ./ordenar quiSort < path_entrada > path_saida
+./ordenar parSort < path_entrada > path_saida
 
 
 Execução exemplo:
@@ -21,3 +23,6 @@ Execução exemplo:
 
 * Para executar o MergeSort Sequencial
 ./ordenar seqSort < /home/fulano/entrada.txt > /home/fulano/saida.txt
+
+* Para executar o MergeSort Paralelo
+./ordenar parSort < /home/fulano/entrada.txt > /home/fulano/saida.txt
