@@ -19,10 +19,10 @@ Template:
 
 Execução exemplo:
 * Para executar o QuickSort
-./ordenar quiSort < /home/fulano/entrada.txt > /home/fulano/saida.txt
+./ordenar.sh quiSort < /home/fulano/entrada.txt > /home/fulano/saida.txt
 
 * Para executar o MergeSort Sequencial
-./ordenar seqSort < /home/fulano/entrada.txt > /home/fulano/saida.txt
+./ordenar.sh seqSort < /home/fulano/entrada.txt > /home/fulano/saida.txt
 
 * Para executar o MergeSort Paralelo
-./ordenar parSort < /home/fulano/entrada.txt > /home/fulano/saida.txt
+./ordenar.sh parSort < /home/fulano/entrada.txt > /home/fulano/saida.txt
